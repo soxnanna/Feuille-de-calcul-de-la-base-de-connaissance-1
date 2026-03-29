@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(248, 248, 248);
+}
+
+section{
+    background-color: rgb(248, 251, 253);
+    margin: 80px 210px;
+    position: relative;
+    border-style:outset ;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px #a5adad;
+}
+nav,h2,h3,img,p,ol,button{
+    margin: 20px 80px;
+}
+img{
+    image-resolution: inherit;
+}
+h3{
+    font-size: 24px;
+}
+.btn-del button{
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 20px 80px;
+    border-radius: 10px;
+    background-color: rgb(216, 60, 60);
+    border-style: none;
+    cursor: pointer;
+    color: white;
+}
+.btn-del button a{
+    text-decoration: none;
+}
+.btn-del button:hover{
+    background-color: rgb(146, 146, 202);
+}
+ol li{
+    margin: 10px 0px;
+    font-size: 20px;
+}
+
+.card-btn{
+    padding: 20px;
+}
+
+/* header{
+    position: relative;
+    background-color: aqua;
+    margin: auto 200px;
+    height: 100px;
+}
+header nav{
+    display: flex;
+}
+header nav a{
+    margin: 30px 200px;
+    padding: 20px;
+    background-color: rgb(18, 105, 236);
+    text-decoration: none;
+    border-radius: 3px;
+    color: black;
+}
+header nav a:hover{
+    background-color: #a5adad;
+}
+main{
+    position: relative;
+    background-color: aqua;
+    margin: auto 200px;
+    height: 100px;
+    height: 20em;
+}
+h1{
+    text-align: center;
+}
+main ul{
+    display: flex;
+    background-color: #557e7c;
+    
+}
+main ul li a{
+    justify-content: center;
+} */
