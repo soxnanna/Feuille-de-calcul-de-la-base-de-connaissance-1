@@ -64,3 +64,17 @@ body {
   justify-content: center;
   padding: 40px 16px;
 }
+/* ============================================
+   PAGE WRAPPER & CARD
+   ============================================ */
+.page-wrapper {
+  width: 100%;
+  max-width: 760px;
+}
+
+.card {
+  background: var(--bg-card);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow);
+  padding: 40px 48px;
+}
