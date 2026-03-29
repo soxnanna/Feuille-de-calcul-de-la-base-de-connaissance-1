@@ -5,3 +5,4 @@ updating a text in master
 =======
 updating a text in main
 >>>>>>> main
+create a text to save it by stash
