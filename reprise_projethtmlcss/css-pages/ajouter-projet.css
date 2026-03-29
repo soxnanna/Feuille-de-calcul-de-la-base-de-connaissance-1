@@ -161,3 +161,57 @@ body {
   resize: vertical;
   min-height: 110px;
 }
+/* ============================================
+   BOUTONS D'ACTION
+   ============================================ */
+.form-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+
+/* Bouton Créer */
+.btn-primary {
+  display: inline-block;
+  background-color: var(--btn-primary-bg);
+  color: #ffffff;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 10px 22px;
+  border: none;
+  border-radius: var(--radius-btn);
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color var(--transition), transform var(--transition);
+}
+
+.btn-primary:hover {
+  background-color: var(--btn-primary-hover);
+  transform: translateY(-1px);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+}
+
+/* Bouton Annuler */
+.btn-cancel {
+  display: inline-block;
+  background-color: var(--btn-cancel-bg);
+  color: #ffffff;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 10px 22px;
+  border-radius: var(--radius-btn);
+  text-decoration: none;
+  transition: background-color var(--transition), transform var(--transition);
+}
+
+.btn-cancel:hover {
+  background-color: var(--btn-cancel-hover);
+  transform: translateY(-1px);
+}
